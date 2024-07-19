@@ -1,7 +1,7 @@
 import Pusher from 'pusher-js/react-native';
 
 // Initialize Pusher only once
-const pusher = new Pusher('f62be600d1058c22c4e5', {
+const pusher = new Pusher('fe0719382f9cae62f3f7', {
   cluster: 'ap2',
   // encrypted: true, // Ensure encrypted is set to true for secure connections
 });
