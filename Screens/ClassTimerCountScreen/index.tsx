@@ -440,7 +440,6 @@ function ClassTimerCount({ navigation, route }: any) {
                 <View style={{ alignItems: 'center', position: 'absolute', top: '45%', left: '31%', justifyContent: 'center' }}>
                     <>
                         <TouchableOpacity style={{ alignItems: 'center', justifyContent: 'center' }} onPress={() => handleClockOut()} activeOpacity={0.8} >
-
                             {!backTime && <Timer show={"true"} />}
                         </TouchableOpacity>
                     </>
